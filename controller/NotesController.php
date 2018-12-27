@@ -108,7 +108,7 @@
           }
           File::sortData($notes);
           File::putData($notes, 'text.txt');
-          echo Db::getConnectionFile('/text.txt', false)
+          echo Db::getConnectionFile('/text.txt', false);
         }
       }
       return true;

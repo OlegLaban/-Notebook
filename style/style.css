@@ -1,0 +1,56 @@
+th{
+  font-weight: normal;
+  max-width: 500px;
+  min-width: 100px;
+}
+
+a{
+  text-decoration: none;
+}
+#sub{
+  cursor: pointer;
+}
+
+.buttons{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.level{
+  font-weight: bold;
+}
+
+.level2{
+  background-color:#FFEC14;
+  color:white;
+}
+
+.level3{
+  background-color:red;
+  color:white;
+}
+
+.borderRight{
+  border-right: 2px solid black;
+
+}
+
+.borderLeft{
+  border-left: 2px solid black;
+}
+
+input {
+  font-size: 30px;
+}
+
+textarea{
+  font-size: 20px;
+}
+
+input, textarea{
+  outline: none;
+}
+
+.dateTable{
+  font-size: 16px;
+}

@@ -49,7 +49,11 @@
 <?php else: ?>
   <tr>
     <th colspan="5">
-      <h2>Дел на сегодня нет.</h2>
+      <?php if($nowDate == date("d.m.Y")): ?>
+        <h2>Дел на сегодня нет.</h2>
+      <?php else: ?>
+        <h3>Дел на <?php echo $nowDate; ?> нет.</h3>
+      <?php endif; ?>
     </th>
   </tr>
 <?php endif; ?>

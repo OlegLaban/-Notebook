@@ -12,7 +12,7 @@
     <th>Важность</th>
     <th>Тема</th>
     <th>Описание</th>
-    <th colspan="2">
+    <th colspan="3">
       Установить дату:
       <form action="" method="POST">
         <input id="day" class="dateTable" type="number" name="day" value="<?php if(isset($dateArray)){ echo $dateArray[0]; }else{ echo date('d'); }  ?>" max="31" min="1">
